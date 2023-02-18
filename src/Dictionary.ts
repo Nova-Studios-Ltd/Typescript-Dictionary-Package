@@ -1,6 +1,6 @@
-import { IDictionary } from "IDictionary";
-import { Indexable } from "Indexable";
-import { KeyValuePair } from "KeyValuePair";
+import { IDictionary } from "./IDictionary";
+import { Indexable } from "./Indexable";
+import { KeyValuePair } from "./KeyValuePair";
 
 /**
  * Dictionary object. Fully generic.

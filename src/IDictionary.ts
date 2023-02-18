@@ -1,5 +1,5 @@
-import { Indexable } from "Indexable";
-import { KeyValuePair } from "KeyValuePair";
+import { Indexable } from "./Indexable";
+import { KeyValuePair } from "./KeyValuePair";
 
 /**
  * Interface for dictionary type objects

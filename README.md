@@ -1,3 +1,4 @@
+[![Node.js Package](https://github.com/Nova-Studios-Ltd/Typescript-Dictionary-Package/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Nova-Studios-Ltd/Typescript-Dictionary-Package/actions/workflows/npm-publish.yml)
 # Typescript Dictionary
 
 ## Description

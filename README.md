@@ -1,0 +1,45 @@
+# Typescript Dictionary
+
+## Description
+
+NPM package for our internal Dictionary class
+
+## Requirements
+
+- [Node.js](https://nodejs.org/en/download/)
+  - npm (normally included)
+  - typescript
+
+
+## Installation
+```sh
+npm install @nova-studios-ltd/typescript-dictionary
+```
+
+## Basic Usage
+```typescript
+import { KeyValuePair, Dictionary } from "@nova-studios-ltd/typescript-dictionary";
+
+// Create new instance
+const dict = new Dictionary<string, string>();
+
+// Set key/value
+dict.setValue("Hello", "Bonjour");
+
+// Get value
+dict.getValue("Hello") // -> Returns 'Bonjour'
+
+```
+
+## Getting the Source Code
+
+Download a zipped version [here](https://github.com/Nova-Studios-Ltd/Typescript-Dictionary-Package/archive/refs/heads/master.zip)
+or clone via HTTPS:
+
+```sh
+git clone https://github.com/Nova-Studios-Ltd/Typescript-Dictionary-Package.git
+```
+
+## License
+
+This project is currently licensed under a GPLv3 license.

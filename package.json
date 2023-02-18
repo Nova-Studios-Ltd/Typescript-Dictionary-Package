@@ -1,8 +1,9 @@
 {
-  "name": "typescript-dictionary",
-  "version": "1.0.0",
+  "name": "@nova-studios-ltd/typescript-dictionary",
+  "version": "1.0.5",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
@@ -10,18 +11,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["dictionary", "key-value pair", "key indexed object"],
+  "author": "nova1545",
   "license": "GPL-3.0",
   "devDependencies": {
     "typescript": "^4.9.5"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nova-Studios-Ltd/Typescript-Dictionary.git"
+    "url": "git+https://github.com/Nova-Studios-Ltd/Typescript-Dictionary-Package.git"
   },
   "bugs": {
-    "url": "https://github.com/Nova-Studios-Ltd/Typescript-Dictionary.git"
+    "url": "https://github.com/Nova-Studios-Ltd/Typescript-Dictionary-Package.git/issues"
   },
-  "homepage": "https://github.com/Nova-Studios-Ltd/Typescript-Dictionary.git"
+  "homepage": "https://github.com/Nova-Studios-Ltd/Typescript-Dictionary-Package.git#readme"
 }
